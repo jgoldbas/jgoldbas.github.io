@@ -1,0 +1,56 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+  
+.header {
+	background-color: cornflowerblue;
+	text-align: center;
+	/* height: 200px;
+	width: 200px; */
+}
+  
+.about-me {
+	font-size: 20px;
+	opacity: 0.5;
+}
+  
+.title {
+	font-weight: bold;
+}
+  
+/* h1 {
+	color: Azure;
+} */
+
+#banner {
+	/* background-image: url("./IMG_4456.jpg"); */
+	/* background-size: cover; */
+	background-position: center;
+	height: 240px;
+	width: 50%;
+  }
+
+#banner .content h1 {
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 400px;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.navigation {
+	position: fixed;
+}
+
+li {
+	list-style-type: square;
+}
+
+h6 {
+	font-family: 'Space Mono', monospace;
+}
