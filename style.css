@@ -3,17 +3,12 @@ body {
 	background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
 }
   
-.header {
-	background-color: cornflowerblue;
+/* .header {
+	background-color: rgb(172, 181, 196);
 	text-align: center;
 	/* height: 200px;
 	width: 200px; */
-}
-  
-.about-me {
-	font-size: 20px;
-	opacity: 0.5;
-}
+
   
 .title {
 	font-weight: bold;
@@ -61,3 +56,27 @@ li {
 h6 {
 	font-family: 'Space Mono', monospace;
 }
+
+.photo {
+	width: 50%;
+	padding: 1.11rem;
+	border-radius: 5px;
+	margin: 0 auto 4.44rem auto;
+	background-color: rgb(161, 156, 156);
+	font-family: "Merriweather";
+  }
+  
+  .photo .image-container {
+	overflow: hidden;
+	margin-bottom: 1.11rem;
+  }
+  
+  .photo .image-container img {
+	width: 100%;
+  }
+  
+  .photo .caption {
+	font-style: italic;
+	font-family: 'Merriweather', serif;
+  }
+  
