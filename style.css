@@ -43,9 +43,16 @@ body {
 	padding: 0;
 	text-align: center;
 }
-.navigation {
-	position: fixed;
+
+.navigation li {
+	display: inline;
+	padding-right: 2.22rem;
+	/* position: fixed; */
 }
+
+/* .navigation {
+	position: fixed;
+} */
 
 li {
 	list-style-type: square;
