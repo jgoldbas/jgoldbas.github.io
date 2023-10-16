@@ -54,7 +54,7 @@ body {
 	border-bottom: 1px solid #dddddd;
 	left: 0px;
 	overflow-y: auto;
-	padding:30px;
+	padding: 30px;
 	position: fixed;
 	text-align: center;
 	top: 0px;
@@ -88,6 +88,7 @@ h2 {
 	border-radius: 5px;
 	position: relative;
 	margin: 0 auto 4.44rem auto;
+	/* margin-top: 10px; */
 	background-color: rgb(161, 156, 156);
 	font-family: "Merriweather";
 
@@ -102,11 +103,13 @@ h2 {
 }
   
 .photo .image-container {
+	margin-top: 10px;
 	overflow: hidden;
 	margin-bottom: 1.11rem;
 }
   
 .photo .image-container img {
+	
 	width: 100%;
 }
   
@@ -133,6 +136,7 @@ a:hover {
 	color: #5495ff;
 }
 
+/* In artwork.html */
 .img-1 {
 	padding-top: 10px;
 	max-width: 400px;
