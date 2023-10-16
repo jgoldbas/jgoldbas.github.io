@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(./fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
@@ -30,6 +35,17 @@ body {
 	top: 50px;
 	margin: 0 auto;
 	width: 400px;
+}
+
+.list-heading {
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif; 
+	/* font-weight: bold; */
+}
+
+.skills-list li {
+	font-family: 'Open Sans';
+	line-height: 1.7;
 }
 
 .navigation ul {
@@ -107,7 +123,7 @@ h2 {
   
 .photo .caption {
 	font-style: italic;
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', sans-serif;
 }
   
 a {
