@@ -17,10 +17,6 @@ body {
 .title {
 	font-weight: bold;
 }
-  
-/* h1 {
-	color: Azure;
-} */
 
 #banner {
 	/* background-image: url("./IMG_4456.jpg"); */
@@ -40,7 +36,7 @@ body {
 .list-heading {
 	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif; 
-	/* font-weight: bold; */
+	font-weight: bold;
 }
 
 .skills-list li {
@@ -75,13 +71,6 @@ body {
 
 li {
 	line-height: 1.5;
-}
-
-/* .navigation {
-	position: fixed;
-} */
-
-li {
 	list-style-type: square;
 }
 
@@ -123,7 +112,7 @@ h2 {
   
 .photo .caption {
 	font-style: italic;
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
   
 a {
