@@ -1,1 +1,1 @@
-[My Website]([jgoldbas.github.io](https://jgoldbas.github.io/)https://jgoldbas.github.io/)
+[My Website](https://jgoldbas.github.io/)
