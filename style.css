@@ -74,12 +74,14 @@ li {
 	list-style-type: square;
 }
 
-h6 {
-	font-family: 'Space Mono', monospace;
+h2 {
+	/* text-align: center; */
+	background-color: #646966;
+	padding-left: 4px;
 }
 
-h2 {
-	padding-left: 4px;
+h6 {
+	font-family: 'Space Mono', monospace;
 }
 
 .photo {
@@ -87,7 +89,7 @@ h2 {
 	padding: 1.11rem;
 	border-radius: 5px;
 	position: relative;
-	margin: 0 auto 4.44rem auto;
+	margin: 10px auto 4.44rem auto;
 	/* margin-top: 10px; */
 	background-color: rgb(161, 156, 156);
 	font-family: "Merriweather";
@@ -109,7 +111,6 @@ h2 {
 }
   
 .photo .image-container img {
-	
 	width: 100%;
 }
   
@@ -133,7 +134,13 @@ a:hover {
 }
   
 .nav-link:hover {
-	color: #5495ff;
+	color: #093a89;
+	transition: color .1s ease-in;
+}
+
+.nav-link:active {
+	font-size: 18px;
+	transition: font-size .1s ease-in-out;
 }
 
 /* In artwork.html */
@@ -152,4 +159,14 @@ a:hover {
 	max-width: 400px;
 	height:auto;
 }
+
+a.logo{
+	color: #51555c;
+	font-family: 'Amatic SC',sans-serif;
+	font-size: 28px;
+	padding: 0px 60px;
+	text-align: center;
+	/* text-transform: uppercase; */
+  }
+
 
