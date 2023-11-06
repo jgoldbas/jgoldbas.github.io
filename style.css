@@ -4,6 +4,8 @@
 }
 
 body {
+	padding-top: 100px;
+	position: relative;
 	font-family: 'Raleway', sans-serif;
 	background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
 }
@@ -44,6 +46,13 @@ body {
 	line-height: 1.7;
 }
 
+.navigation {
+	position: sticky;
+	z-index: 999;
+}
+
+
+
 .navigation ul {
 	/* margin: 0;
 	padding: 0;
@@ -59,7 +68,7 @@ body {
 	text-align: center;
 	top: 0px;
 	width: 100%;
-	z-index: 999;
+	
 }
 
 .navigation li {
